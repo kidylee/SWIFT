@@ -1,4 +1,4 @@
 SWIFT
 =====
 
-The format of Society for Worldwide Interbank Financial Telecommunication sublime highlight.
+The sublime highlight for the format of Society for Worldwide Interbank Financial Telecommunication.
