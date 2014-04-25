@@ -1,0 +1,17 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: SWIFT
+scopeName: source.swift
+fileTypes: [swift]
+uuid: 7fa23102-c5ad-4d1a-a1d5-0cf6ad83dc43
+
+patterns:
+#tag
+- name: entity.name.tag
+  match: (\:\w{1,3}\:)
+#Qual
+- name: storage.type.tag
+  match: (?!\:)(\/\w{1,6}\/)
+#Value
+- name: variable
+  match: (?!\:\w{1,3}\:)([\w,\s]*)\n
